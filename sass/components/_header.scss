@@ -1,0 +1,55 @@
+#gallery-container {
+  background: $gallery-background-color url("../images/gallery_gradient.png") repeat-x;
+  background-position: bottom;
+  width: 100%;
+  display: block;
+  //height: auto;
+  height: 490px;
+  //clear: both;
+
+  /* background-size: cover; */
+  z-index: 998;
+  @include box-shadow(0, 0, 25px, rgba(0, 0, 0, 1), "inset");
+}
+//Logo
+.header_logo {
+  position: absolute; /*Use of position absolute inside of relative position div*/
+  z-index: 1000;
+  bottom: -167px;
+  left: -25px;
+}
+
+.header_logo_glow {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+//header bar
+#page-header {
+  background: $gallery-background-color url("../images/header_gradient.png") repeat-x;
+  height: 100px;
+  background-color: $color-header-background;
+  width: 100%;
+
+  //z-index needed to prevent dropshadow drawing under the next div
+  position: relative;
+  z-index: 999;
+  @include box-shadow(0px, 0px, 25px, rgba(0, 0, 0, 1), "inset");
+}
+
+//Links
+#header-links {
+  float: right;
+  font-size: $header-links-font-size;
+  font-family: $font-light;
+  margin: 68px 0 0 0;
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+}

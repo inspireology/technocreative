@@ -1,0 +1,7 @@
+{
+    "require": {
+        "smarty/smarty": "^3.1",
+        "php-di/php-di": "^6.0",
+        "snscripts/html-helper": "^2.0"
+    }
+}

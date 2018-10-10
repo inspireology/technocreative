@@ -1,0 +1,77 @@
+$h-shadow-offset: 0;
+$h-shadow-size: 9px;
+$h-shadow-color: rgba(0, 0, 0, 1);
+$h1-font-size: 42px;
+$h2-font-size: 38px;
+$h3-font-size: 34px;
+$h4-font-size: 30px;
+$h5-font-size: 26px;
+$h6-font-size: 24px;
+$header-links-font-size: 30px;
+$link-color-regular-text: #999999;
+$link-color: #CDCDCD;
+$p-font-size: 22px;
+
+h1 {
+  font-family: $font-heavy;
+  text-shadow: $h-shadow-offset $h-shadow-offset $h-shadow-size $h-shadow-color;
+  color: white !important;
+  font-size: $h1-font-size;
+  margin-bottom: 0.1em;
+  a {
+    color: white;
+  }
+}
+
+h2 {
+  @extend h1;
+  font-size: $h2-font-size;
+}
+
+h3 {
+  @extend h1;
+  font-size: $h3-font-size;
+}
+
+h4 {
+  @extend h1;
+  font-size: $h4-font-size;
+}
+
+h5 {
+  @extend h1;
+  font-size: $h5-font-size;
+}
+
+h6 {
+  @extend h1;
+  font-size: $h6-font-size;
+}
+
+a {
+  text-decoration: none;
+  //text-shadow: 0 0 3px white, 0 0 2px white;
+  color: $link-color;
+  //color: #FBFF67;
+  transition-property: text-shadow, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+
+  &:hover {
+    //text-decoration: underline;
+    color: white;
+    text-shadow:
+            0 0 7px white,
+            0 0 5px white,
+            0 0 4px white,
+            0 0 2px white;
+  }
+}
+
+p {
+  font-size: $p-font-size;
+  margin-top: 0.2em;
+  a {
+    font-family: $font-heavy;
+  }
+}

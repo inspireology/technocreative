@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'JosefinSansLight';
+  src: url('../fonts/JosefinSans-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/JosefinSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/JosefinSans-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/JosefinSans-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/JosefinSans-Light.svg#7005bf95853b29ba3dd4acc59774709e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  100;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../fonts/JosefinSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/JosefinSans-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/JosefinSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/JosefinSans-Regular.svg#ef57ba94b48177a2b784e1f373ff52ae') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  100;
+}
+
+@font-face {
+  font-family: 'JosefinSansSemiBold';
+  src: url('../fonts/JosefinSans-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/JosefinSans-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/JosefinSans-SemiBold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/JosefinSans-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/JosefinSans-SemiBold.svg#1d4332910f1b16b20516c386ba0a31ba') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  100;
+}
+
+@font-face {
+  font-family: 'JosefinSansThin';
+  src: url('../fonts/JosefinSans-Thin.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/JosefinSans-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/JosefinSans-Thin.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/JosefinSans-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/JosefinSans-Thin.svg#773c5e84007c816e188f4bc78bd40af3') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'monospaced';
+  src: url('../fonts/SourceCodePro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceCodePro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceCodePro-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/SourceCodePro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceCodePro-Regular.svg#4ffe771a29b891bc8a668deb85ee3a60') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+$font-heavy: "JosefinSansSemiBold" !global;
+$font-regular: "JosefinSansLight" !global;
+$font-light: "JosefinSansThin" !global;
+$font-monospaced: "monospaced" !global;
+$font-stack: $font-regular, Helevetica, Arial, Sans Serif;

@@ -1,0 +1,18 @@
+//Frameworks
+@import "vendor/bourbon/bourbon/_bourbon.scss";
+@import "vendor/bourbon/bitters/_base.scss";
+@import "vendor/bourbon/neat/_neat.scss";
+@import "vendor/susy/susy.scss"; //susy unprefixed
+@import "vendor/susy/susy-prefix.scss"; //susy prefixed
+
+//Code
+@import "fonts"; //Raw import of fonts, definition of font names, font stacks
+@import "global_variables"; //Global variables such as colors, certain dimensions etc. Use a preceding underscore to indicate a constant.
+@import "mixins"; //user specified mixins
+@import "typography"; //typography rules, font sizes, styles etc
+@import "components"; //Parts that make up a page
+@import "pages"; //Page specific, styles and layouts how the components fit together
+@import "responsive"; //Responsive Rules
+
+//https://sass-guidelin.es/
+//https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048

@@ -1,0 +1,27 @@
+//Next Previous Post
+//TODO: consider replacing this with tiles of other posts with similar tags
+#time-navigation {
+  position: relative;
+  padding-top: 40px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  .newer {
+  }
+  .older {
+  }
+  .top {
+  }
+}
+
+//Footer
+#page-footer {
+  @extend #page-header;
+  padding-top: 16px;
+  .content {
+    text-align: center;
+  }
+}

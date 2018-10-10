@@ -1,0 +1,59 @@
+
+//cover image
+#cover-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display: block;
+}
+
+//Adjust padding & margin of the blog title
+#cover-image + div h1 {
+  box-sizing: border-box;
+  margin: 0px 5px;
+  padding: 5px 0 1px 0;
+}
+
+//code block
+pre {
+  @include box-shadow(2px, 2px, 5px, rgba(0, 0, 0, 0.5));
+  font-family: "monospaced";
+
+  $code-header-background-color: #1E1E1E;
+  background-color: $code-header-background-color;
+
+  $padding-value: 30px;
+
+  & > span{
+    padding-left: $padding-value - 7px!important;
+    font-size: 14px !important;
+  }
+
+  code {
+    padding: $padding-value - 9px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+//Add Dropcaps to the start of paragraphs
+.blog-post > p:first-letter {
+  float: left;
+  font-size: 49px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 2px;
+  padding-left: 3px;
+  font-family: $font-light;
+}
+
+.single-post-title{
+  @extend .featured-title;
+  position: absolute;
+  height: auto;
+  bottom: 0;
+
+  h1{
+  }
+}

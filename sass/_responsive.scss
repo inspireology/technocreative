@@ -1,0 +1,21 @@
+//https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/
+//https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862
+
+// Basic and Simple
+// https://stackoverflow.com/questions/16443380/common-css-media-queries-break-points
+
+//TODO: insert reponsive constants here or in the constants file
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
+
+//http://www.responsinator.com/
+//https://www.html5rocks.com/en/mobile/responsivedesign/#toc-style-mobilefirst

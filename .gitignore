@@ -1,0 +1,9 @@
+.sass-cache
+_Archive
+.idea
+todo.txt
+.test
+*.swo
+*.swp
+vendor
+unsplash photos
