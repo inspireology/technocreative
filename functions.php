@@ -1,5 +1,5 @@
 <?php
-require "../classes/autoload.php";
+//require "../classes/autoload.php";
 //TODO: call a controller for the view being rendered
 add_theme_support('post-thumbnails');
 
